@@ -1,0 +1,128 @@
+/*Files for Projects & services not created yet*/
+
+#projects{
+  height: 100vh;
+  width: 100%;
+}
+
+
+#projects-wrapper{
+  position: relative;
+}
+#projects-header{
+  color: black;
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 2em;
+}
+
+.black-hr{
+  border: 1px solid black;
+  width: 2em;
+}
+
+/*Till here - for anothr file*/
+
+#about{
+  height: 100vh;
+  width: 100%;
+  background: -webkit-linear-gradient(45deg, #113B7F 0%, #14293d 100%);
+  background: -moz-linear-gradient(45deg, #113B7F 0%, #14293d 100%);
+  background: linear-gradient(45deg, #113B7F 0%, #14293d 100%);
+  position: relative;
+}
+
+#about-descr-wrapper{
+  display: flex;
+  flex-direction: row;
+}
+
+#about-header{
+  color: black;
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 2em;
+}
+
+#img-wrap{
+  /*position: absolute;
+  right: 7em;
+  top: 2em;*/
+  width: 200px;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 0;
+}
+
+#cabin-image{
+  width: 30em;
+  height: 29em;
+  object-fit: cover;
+  opacity: 0.25;
+  /*position:relative;
+  z-index: 0;
+  display: inline-block;*/
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+}
+#about-wrapper{
+  position: relative;
+}
+#about-header{
+  color: white;
+  text-align: center;
+  padding-top: 1.5em;
+  font-size: 2em;
+  position: relative;
+  z-index:1;
+}
+
+/*Need to work on responsiveness of the paragraph*/
+
+#about-descr-wrapper
+{
+  position: absolute;
+  width: 100%;
+  text-align: center;
+}
+
+#about-text{
+  color: white;
+  text-align: center;
+  padding-top: 3em;
+  font-style: normal;
+  font-weight: normal;
+  line-height:183%;
+  width: 40%;
+  margin: 0 auto;
+  position: relative;
+  z-index:1;
+}
+
+@media only screen and (max-width: 640px){
+  #about-text{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 200px){
+  #cabin-image{
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 780px){
+  #cabin-image{
+    top: 50%;
+    left: 50%;
+  }
+
+  #about-wrapper{
+    flex-direction: column;
+  }
+}

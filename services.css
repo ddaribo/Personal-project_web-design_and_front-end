@@ -1,0 +1,23 @@
+#services-wrapper{
+  position: relative;
+   text-align: center;
+   margin-top: -12em;
+}
+
+#services-header{
+  font-size: 2em;
+  padding-top: 1.5em;
+}
+
+@media only screen and (max-width: 680px){
+  #services{
+    margin-top: -4em;
+  }
+}
+
+
+@media only screen and (max-width: 375px){
+  #services{
+    margin-top: -2.5em;
+  }
+}

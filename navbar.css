@@ -1,0 +1,124 @@
+body{
+  font-family: Montserrat;
+}
+
+#nav{
+position: fixed;
+width: 100%;
+height: 5em;/*95px;*/
+left: 0;
+top: 0;
+background: #003957;
+z-index: 2;
+}
+
+#PP{
+width: 11em;
+margin-left: 1em;
+font-size: 1.5em;
+line-height: 1em;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.buttons{
+text-decoration: none;
+position: absolute;
+width: 7em;
+height: 2.5em;
+top: 1.3em;
+border: 1px solid #FFFFFF;
+box-sizing: border-box;
+border-radius: 3px;
+}
+
+#buttons-list {
+width: 26em;
+right: 10em;
+}
+
+#Services-btn{
+right: 35em;
+}
+
+#About-btn {
+right: 25em;
+}
+
+#Projects-btn{
+right: 15em;
+}
+
+#Contacts-btn{
+right: 5em;
+}
+
+.buttons-text{
+text-decoration: none;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 1em;
+color: #FFFFFF;
+margin-top: auto;
+text-align: center;
+padding: 0.5em;
+}
+
+
+/* Nav bar media queries */
+
+@media only screen and (max-width: 1180px) {
+    #Services-btn{
+    right: 30em;
+    }
+
+    #About-btn {
+      right: 22em;
+    }
+
+    #Projects-btn{
+      right: 14em;
+    }
+
+    #Contacts-btn{
+      right: 6em;
+    }
+}
+
+@media only screen and (max-width: 1180px) {
+ #PP{
+   margin-left: 0.5em;
+   padding:0;
+   width: 8em;
+ }
+
+ #buttons-list {
+  width: 20em;
+  right: 5em;
+}
+
+#Services-btn{
+  right: 26em;
+}
+
+#About-btn {
+  right: 18em;
+}
+
+#Projects-btn{
+  right: 10em;
+}
+
+#Contacts-btn{
+  right: 2em;
+}
+}
+
+@media only screen and (max-width: 800px){
+/*Make hamburger menu or hide all btns*/
+  #buttons-list {
+    display:none;
+  }
+}

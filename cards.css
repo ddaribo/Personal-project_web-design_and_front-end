@@ -1,0 +1,61 @@
+.flex-container {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin-left: -15px;
+    margin-right: -15px;
+
+    font-family: "Droid Sans", Arial, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+
+
+}
+.card{
+    position: relative;
+    margin: 2em;
+    padding: 0.5em 0 5em 0;
+    width: 25%;
+    box-shadow: 10px 20px 40px #e6e6f0;
+    border-radius: 3px;
+}
+
+.card p {
+    margin: 0 auto;
+    text-align: center;
+    width:50%;
+}
+
+
+.feature-left .icon {
+    float: left;
+    text-align: center;
+    width: 15%;
+}
+
+.feature-left .feature-copy h3 {
+    font-size: 18px;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 950px){
+    .card{
+        padding: 0.5em 0 5em 0;
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 722px){
+    .card{
+        padding: 0.5em 0 5em 0;
+        width: 70%;
+    }
+}
