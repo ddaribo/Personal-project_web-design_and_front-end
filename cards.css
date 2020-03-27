@@ -14,35 +14,45 @@
     font-size: 16px;
     line-height: 1.7;
     color: #777;
-
+    margin-bottom: 5em;
+    width: 100%;
 
 }
+
 .card{
     position: relative;
-    margin: 2em;
-    padding: 0.5em 0 5em 0;
+    margin: 2em 5em;
+    padding: 1em 0 1em 0;
     width: 25%;
+    height: 12em;
     box-shadow: 10px 20px 40px #e6e6f0;
     border-radius: 3px;
+    height: 30%;
 }
 
-.card p {
+.card h3{
+    padding: 1em;
+}
+
+/*.card p {
     margin: 0 auto;
     text-align: center;
     width:50%;
-}
+}*/
 
-
-.feature-left .icon {
-    float: left;
+ .icon {
     text-align: center;
-    width: 15%;
+    padding: 1em;
+    width: 96px;
+    height: 96px;
 }
 
 .feature-left .feature-copy h3 {
-    font-size: 18px;
+    font-size: 16px;
+    font-weight: 600;
     color: #1a1a1a;
-    margin-bottom: 10px;
+    margin-top: 1em;
+    font-family: Montserrat;
 }
 
 @media only screen and (max-width: 950px){

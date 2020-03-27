@@ -24,12 +24,13 @@
 /*Till here - for anothr file*/
 
 #about{
-  height: 100vh;
+  height: auto;
   width: 100%;
   background: -webkit-linear-gradient(45deg, #113B7F 0%, #14293d 100%);
   background: -moz-linear-gradient(45deg, #113B7F 0%, #14293d 100%);
   background: linear-gradient(45deg, #113B7F 0%, #14293d 100%);
   position: relative;
+  overflow: hidden;
 }
 
 #about-descr-wrapper{
@@ -45,30 +46,20 @@
 }
 
 #img-wrap{
-  /*position: absolute;
-  right: 7em;
-  top: 2em;*/
-  width: 200px;
-  height: 150px;
-  position: relative;
-  display: inline-block;
-  overflow: hidden;
-  margin: 0;
+  margin:0;
+  padding:0; 
+  margin: 0 auto;
+  overflow:hidden;
 }
 
 #cabin-image{
-  width: 30em;
-  height: 29em;
-  object-fit: cover;
   opacity: 0.25;
-  /*position:relative;
-  z-index: 0;
-  display: inline-block;*/
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+  max-width: 500px;
+  max-height: 500px;
+  float: right;
 }
 #about-wrapper{
   position: relative;
@@ -78,8 +69,8 @@
   text-align: center;
   padding-top: 1.5em;
   font-size: 2em;
-  position: relative;
   z-index:1;
+  width: 100%;
 }
 
 /*Need to work on responsiveness of the paragraph*/
@@ -95,6 +86,8 @@
   color: white;
   text-align: center;
   padding-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
   font-style: normal;
   font-weight: normal;
   line-height:183%;
@@ -110,17 +103,8 @@
   }
 }
 
-@media only screen and (max-width: 200px){
-  #cabin-image{
-    text-align: center;
-  }
-}
 
 @media only screen and (max-width: 780px){
-  #cabin-image{
-    top: 50%;
-    left: 50%;
-  }
 
   #about-wrapper{
     flex-direction: column;

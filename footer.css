@@ -3,7 +3,8 @@
   height: 35em;
   background-color: #003957;
   width:100%;
-  position: relative;
+  position: float;
+  margin-top: 10em;
 }
 
 #contacts{
@@ -27,9 +28,8 @@ hr{
 }
 
 #copyright-wrap{
-  position: absolute;
-  bottom: 0;
   width: 100%;
+  margin-top: 100px
 }
 
 #copyright{

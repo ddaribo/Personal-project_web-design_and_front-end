@@ -1,7 +1,3 @@
-body{
-  margin: 0;
-  background: white;
-}
 
 /* Wrapper div's purpose is so that 
   the h1-s can be positioned according to it */
@@ -18,10 +14,9 @@ body{
 
 #header{
   width: 100%;
-  margin-top: 5em;
   margin-bottom: 0;
   height: 560px;
-  background: rgb(0, 57, 87);
+  background: white;
   overflow: hidden;
 }
 
@@ -41,18 +36,18 @@ h1{
 }
 
 #first-part{
-  margin-left: 1em;
+  margin-left: 3em;
 }
 
 #second-part{
-  margin-left: 3em;
+  margin-left: 5em;
 }
 
 
 
 /* Responsiveness starts here */
 
-@media only screen and (max-width: 1092px) {
+@media only screen and (max-width: 1180px) {
   h1{
     font-size: 3.5em;
   }
@@ -109,12 +104,10 @@ h1{
 }
 
 .parallax {
-  background-image: url("images/ropeway_header.jpg");
+  background-image: url("images/ski-lifts-1209812_1920.jpg");
   height: 560px;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
 }
-
-
 
