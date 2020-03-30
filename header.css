@@ -16,7 +16,7 @@
   width: 100%;
   margin-bottom: 0;
   height: 560px;
-  background: white;
+  background: black;
   overflow: hidden;
 }
 
@@ -25,6 +25,15 @@
   height: 560px;
   object-fit: cover;
   opacity: 0.8;
+}
+
+.parallax {
+  background-image: url("images/ski-lifts-1209812_1920.jpg");
+  height: 560px;
+  background-size: cover;
+  opacity: 0.6;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 h1{
@@ -103,11 +112,4 @@ h1{
   }
 }
 
-.parallax {
-  background-image: url("images/ski-lifts-1209812_1920.jpg");
-  height: 560px;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-}
 
