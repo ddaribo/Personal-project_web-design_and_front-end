@@ -26,7 +26,6 @@ body{
     float: left;
     width: auto;
     height: auto;
-    padding-left: 3rem;
 }
 
 .nav div.logo a {
@@ -100,6 +99,10 @@ body{
     .nav div .logo{
         padding-left: 0;
     }
+
+    .nav div.logo a, .nav div.main_list ul li a{
+        font-size: 1.3rem;
+    }
     
 }
 
@@ -138,13 +141,19 @@ body{
     .nav div.main_list ul li a {
         text-align: center;
         width: 100%;
-        font-size: 3rem;
+        font-size: 2rem;
         padding: 20px;
     }
     .nav div.media_button {
         display: block;
     }
 }
+
+/*For some resason this messes up the .navTrig display until 412px top to bottom?*/
+/*@media only screen and (max-width:412px){
+    .nav div.main_list ul li a {
+        font-size: 1.5rem;
+}*/
 
 
 /* Animation */
@@ -346,8 +355,6 @@ body{
 .affix-burger{
     top: 0;
 }
-
-
 
 
 .myH2 {
