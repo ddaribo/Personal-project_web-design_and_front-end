@@ -21,14 +21,29 @@
     width: 20%;
     height: 12em;
     box-shadow: 10px 20px 40px #e6e6f0;
-    border-radius: 3px;
     height: 30%;
 }
 
+.card:hover{
+    box-shadow: 0 0 40px #d0d0d1;
+    border: white;
+}
+
+a:link{
+    text-decoration: none;
+}
+/*bug in the alignment of card on mobile*/
+
 
 #special {
-    width: 50em;
+   width:90%;
     margin-top: 4em;
+    color: grey;
+}
+
+#special ul{
+    padding: 1em;
+    margin: 0 auto;
 }
 
 .card h3{
@@ -37,6 +52,11 @@
     font-weight: 600;
     color: #1a1a1a;
     margin-top: 1em;
+}
+
+.ordinary{
+    width: 20em;
+    height: 17em;
 }
 
 
@@ -48,10 +68,14 @@
 }
 
 
+/*Bug with responsiveness of first card. Has sth to do with this width here..it cancels out the 20em width*/
+
 @media only screen and (max-width: 950px){
     .card{
         padding: 0.5em 0 5em 0;
-        width: 40%;
+        width: 50%;
+        margin: 3em auto;
+    
     }
 }
 
@@ -60,5 +84,12 @@
     .card{
         padding: 0.5em 0 5em 0;
         width: 70%;
+    }
+}
+
+@media only screen and (max-width: 490px){
+    .card{
+        margin: 3em auto;
+
     }
 }
