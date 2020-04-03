@@ -23,39 +23,8 @@
 <link href="navbar.css" rel="stylesheet" type="text/css" />
 <link href="projects.css" rel="stylesheet" type="text/css" />
 <link href="footer.css" rel="stylesheet" type="text/css" />
+<link href="references.css" rel="stylesheet" type="text/css" />
 
-<style>
-    .flex-container {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        margin: 0 auto;
-        color: #777;
-        margin-bottom: 5em;
-        width: 100%;
-    
-    }
-    
-    .reference{
-        position: relative;
-        margin: 2em 5em;
-        padding: 0.5em 0 0.5em 0;
-        width: 30%;
-        box-shadow: 10px 20px 40px #e6e6f0;
-    }
-    .reference:hover{
-        transform: scale(1.2);
-    }
-
-    @media (max-width: 1000px) {
-        .reference {
-            width: 100%;
-        }
-    }
-    
-</style>
 </head>
 <body>
     <nav class="nav" style="padding:0;">
@@ -79,7 +48,8 @@
         </div>
     </nav>
 
-    <div style="height: 20vh; width: 100%"></div>
+    <!--Non-semantic empty div, needed because of the fiexed navbar.-->
+    <div style="height: 20vh; width: 100%"></div> 
 
     <div class="flex-container">
         <div class="reference">

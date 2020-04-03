@@ -1,21 +1,10 @@
-body{
-    background-color: white;
-    color: black;
-    display: flex;
-    flex-direction: column;
-}
-
 .nav{
-    position: fixed;
-
     background-color:#003957;
 }
 
 #navTrig{
     top: 0;
 }
-
-
 
 .projects{
     display: flex;
@@ -26,6 +15,10 @@ body{
     margin-top: 2em;
     margin-bottom: 2em;
 }
+
+/*.card-header{
+    border-bottom?
+}*/
 
 .description{
     width: 50%;
@@ -70,17 +63,11 @@ body{
     }
 
 }
-/*accordion is currently over navbar - TODO fix*/
 
-
-#Makarigad:hover{
+.card-header:hover{
     cursor: pointer;
 }
 
-#MakarigadDiv{
-    display: none;
-    align-items: center;
-}
 
 .main-container{
     padding: 3em;
@@ -91,10 +78,6 @@ body{
 .card{
     border: none;
     border-radius: 0;
-}
-
-.card-header{
-    border-bottom: none;
 }
 
 .card-body{
@@ -108,7 +91,6 @@ body{
     width: auto; 
     margin-left: 3em;
 }
-
 
 /*Image overlay + link to PDF rules*/
 
@@ -137,7 +119,6 @@ body{
     background: rgba(0, 0, 0, .3);
 }
 
-
 a.pdfbutton {
     display:none;
     position: absolute;
@@ -161,7 +142,6 @@ a.pdfbutton:hover{
     background-color:#FFFFFF;
 }
 
-/*Make buttons responsive*/
 @media only screen and (max-width: 800px){
     a.pdfbutton{
         font-size:16px;
