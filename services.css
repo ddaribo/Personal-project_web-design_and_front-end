@@ -25,7 +25,7 @@
 
 }
 
-.card{
+.card {
     position: relative;
     margin: 2em 5em;
     padding: 0.5em 0 0.5em 0;
@@ -33,36 +33,44 @@
     height: 12em;
     box-shadow: 10px 20px 40px #e6e6f0;
     height: 30%;
+    text-align: center;
 }
 
 #special {
     width:50%;
     margin-top: 4em;
-    color: grey;
+    height: 20em;
+    text-align: center;
 }
-.card a{
-    height: 18em;
+.card  a{
+    height: 16em;
     text-decoration: none;
+    display: block;
+    margin: 0;
+    align-self: center;
+    width: 100%;
 }
 
+
+.card  a:link{
+    text-decoration: none;
+}
 .card:hover{
     box-shadow: 0 0 40px #d0d0d1;
     border: white;
-    /*Not working because of animate.css on .card divs*/
+    /*Not working because of animate.css on .card  divs*/
     transform: scale(1.2);
-}
-
-.card a:link{
-    text-decoration: none;
 }
 
 
 #special ul{
     padding: 1em;
     margin: 0 auto;
+    list-style-type: none;
+    color: gray;
 }
 
-.card h3{
+.card  h3{
     padding: 1em;
     font-size: 16px;
     font-weight: 600;
@@ -89,9 +97,15 @@
         width: 40%;
     }
 
-    #special{
+    #special, #special a{
         width: 60%;
         height: 24em;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    #special{
+        height: 30em;
     }
 }
 
@@ -104,7 +118,7 @@
   
 
 @media only screen and (max-width: 722px){
-    .card{
+    .card {
         padding: 0.5em 0 5em 0;
         width: 70%;
     }
@@ -112,25 +126,25 @@
 
 @media only screen and (max-width: 620px){
     #special{
-        height: 32em;
+        height: 36em;
     }
 }
 
 @media only screen and (max-width: 490px){
-    .card{
+    .card {
         margin: 3em auto;
     }
 }
 
 @media only screen and (max-width: 490px){
 
-    #special{
-        height: 36em;
+    #special, #special a{
+        height: 50em;
     }
 }
 
 @media only screen and (max-width: 490px){
-    #special{
-        height: 40em;
+    #special, #special a{
+        height: 50em;
     }
 }

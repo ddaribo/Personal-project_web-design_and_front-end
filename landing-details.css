@@ -52,12 +52,14 @@
 .carousel-inner > .carousel-item > img {
   height: 100vh !important; 
   width: 100% !important;
+  padding: 6em 4em;
  
 }
 
 .carousel{
     margin: 0 auto;
-    height: 100vh !important;
+    height: 100vh;
+    display: block;
 }
 
 .carousel-caption{
@@ -67,16 +69,92 @@
     z-index: 1;
 }
 
+.carousel-inner{
+  text-align: center;
+}
 
-@media only screen and (max-width: 780px){
-  
-  #about-wrapper{
-    flex-direction: column;
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+
+/*Making carousel images look better on all resolutions*/
+
+
+.carousel-caption a{
+  color: white;
+}
+
+.carousel-caption a:link{
+  text-decoration: none;
+  color: white;
+}
+
+.carousel-caption a:hover{
+  color: #00A6FF;
+}
+
+/*Carousel dimensions are bootstrap defined, so !important is needed here*/
+
+@media only screen and (max-width: 1000px){
+  .carousel-inner > .carousel-item > img {
+    height: 70vh !important;
+    padding: 5em 0;
+  }
+  #projects
+  {
+    height: 70vh !important;
   }
 }
  
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 760px){
   #about-wrapper h1{
     font-size: 2em;
+  }
+
+
+  .carousel-inner > .carousel-item > img {
+    height: 50vh !important;
+    width: 90% !important;
+    padding: 0;
+  }
+
+  #projects
+  {
+    height: 50vh !important;
+  }
+
+  .carousel-caption{
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px){
+  #about-wrapper h1{
+    font-size: 2em;
+  }
+  .carousel-inner > .carousel-item > img {
+    height: 20vh !important;
+    width: 90% !important;
+    padding: 0;
+  }
+
+  h3{
+    font-size: 13px;
+  }
+
+  .carousel-caption{
+    padding: 10px;
+    font-size: 13px;
+  }
+  #projects
+  {
+    height: 25vh !important;
+  }
+
+  .carousel-control-next-icon,
+  .carousel-control-prev-icon {
+    display: none;
   }
 }
