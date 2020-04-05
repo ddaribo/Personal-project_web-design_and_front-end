@@ -1,9 +1,14 @@
 .flex-container {
+    display: -webkit-box;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
     margin: 0 auto;
     width: 100%;
 }
@@ -16,7 +21,8 @@
     box-shadow: 10px 20px 40px #e6e6f0;
 }
 .reference:hover{
-    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
 }
 
 @media (max-width: 1000px) {

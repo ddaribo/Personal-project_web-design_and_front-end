@@ -3,7 +3,10 @@ document.getElementById('navTrig').addEventListener('click', function () {
     console.log("Clicked menu");
     $("#mainListDiv").toggleClass("show_list");
     $("#mainListDiv").fadeIn();
+});
 
+$('#services-burger').click(function(){
+    $("#mainListDiv").removeClass("show_list");
 });
 
 
