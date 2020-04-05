@@ -17,7 +17,7 @@
   margin-bottom: 0;
   height: 560px;
   background: black;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 #header-image{
