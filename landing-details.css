@@ -11,7 +11,7 @@
   background-attachment: fixed;
   background-position:center center;
   position: relative;
-  /*overflow: hidden;*/
+  overflow: hidden;
 }
 
 #about h1 {
@@ -96,6 +96,19 @@
 }
 
 /*Carousel dimensions are bootstrap defined, so !important is needed here*/
+
+
+/*@media only screen and(min-width: 1334px){
+  #about{
+    background-attachment: fixed;
+  }
+}*/
+@supports (-webkit-overflow-scrolling: touch){
+  #about {
+      background-attachment: initial;
+      overflow: initial;
+  }
+}
 
 @media only screen and (max-width: 1000px){
   .carousel-inner > .carousel-item > img {

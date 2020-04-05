@@ -51,8 +51,12 @@ h1{
 #second-part{
   margin-left: 5em;
 }
-
-
+@supports (-webkit-overflow-scrolling: touch){
+  .parallax {
+      background-attachment: initial;
+      overflow: initial;
+  }
+}
 
 /* Responsiveness starts here */
 
@@ -69,6 +73,7 @@ h1{
     padding-top: 3.5em;
   }
 }
+
 
 @media only screen and (max-width: 888px) {
   h1{
