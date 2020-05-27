@@ -7,11 +7,8 @@
 }
 
 .projects{
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .projects h2{
@@ -29,14 +26,10 @@
 }
 
 .images{
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     width: 90%;
-    -webkit-box-align: center;
-            align-items: center;
+    align-items: center;
     margin: 3em;
 }
 
@@ -78,11 +71,8 @@
 
 .main-container{
     padding: 3em;
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
 }
 
 .card{
@@ -91,11 +81,8 @@
 }
 
 .card-body{
-    display: -webkit-box;
     display: flex; 
-    -webkit-box-orient: vertical; 
-    -webkit-box-direction: normal; 
-            flex-direction: column; 
+    flex-direction: column; 
     width: 100%; 
     background-color: rgb(168, 197, 197);
 }
@@ -119,7 +106,6 @@
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0);
-    -webkit-transition: background 0.5s ease;
     transition: background 0.5s ease;
 }
 
@@ -148,10 +134,8 @@ a.pdfbutton {
     font-weight: 700;
     color:#FFFFFF;
     text-align:center;
-    -webkit-transition: all 0.2s;
     transition: all 0.2s;
-    -webkit-transform: translate(-50%, -50%);
-            transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
 }
 a.pdfbutton:hover{
     color:#000000;
