@@ -29,7 +29,7 @@
 }
 
 .parallax {
-  background-image: url("/images/ski-lifts-1209812_1920.jpg");
+  background-image: url("../images/ski-lifts-1209812_1920.jpg");
   height: 560px;
   background-size: cover;
   opacity: 0.6;

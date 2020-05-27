@@ -3,7 +3,7 @@
 #about{
   height: 100vh;
   width: 100%;
-  background-image: url("/images/Backup_of_Untitled-1.png"), linear-gradient(45deg, #113B7F 0%, #14293d 100%);
+  background-image: url("../images/Backup_of_Untitled-1.png"), linear-gradient(45deg, #113B7F 0%, #14293d 100%);
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;

@@ -62,7 +62,7 @@ body{
     text-decoration: none;
     color: #fff;
     line-height: 65px;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 .nav div.main_list ul li a:hover {
@@ -78,6 +78,20 @@ body{
     padding-bottom: 20px;
     -webkit-transition: all 0.4s ease;
     transition: all 0.4s ease;
+}
+
+.languages{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav div.main_list div.languages li{
+    padding-right: 0.1em;
+}
+
+.nav div.main_list div.languages span {
+	color: white;
+	font-size: 1.3rem;
 }
 
 .affix {
@@ -103,7 +117,7 @@ body{
         padding-left: 0;
     }
 
-    .nav div.logo a, .nav div.main_list ul li a{
+    .nav div.logo {
         font-size: 1.3rem;
     }
     
@@ -138,6 +152,17 @@ body{
         /*same background color of navbar*/
         background-position: center top;
     }
+
+    .nav div.main_list div.languages{
+        display: flex;
+        flex-direction: column;
+        padding-right: 3rem;
+    }
+
+    .nav div.main_list span{
+        display: none;
+    }
+
     .nav div.main_list ul li {
         width: 100%;
         text-align: right;
