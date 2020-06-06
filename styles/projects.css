@@ -145,10 +145,31 @@ a.pdfbutton:hover{
 .subcategory {
     margin: 1em 2em;
 }
+.semkovo{
+    display: flex;
+    flex-direction: row;
+}
+.semkovo img{
+    width: 50%;
+    height: auto;
+    margin: 2em;
+}
 
 @media only screen and (max-width: 800px){
     a.pdfbutton{
         font-size:16px;
         font-weight: 300;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    .semkovo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .semkovo img{
+        width: 100%;
+        height: auto;
     }
 }

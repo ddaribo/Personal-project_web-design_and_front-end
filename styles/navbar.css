@@ -30,6 +30,7 @@ body{
     color: #fff;
     font-size: 1.5rem;
     width: 11em;
+    font-weight: 600;
 }
 
 .nav div.logo a:hover {
