@@ -134,6 +134,7 @@ body{
     transition: background 0.5s ease;
 }
 
+
 .img-container:hover a.pdfbutton, .img-container:focus a.pdfbutton{
     display: inline-block;
     
