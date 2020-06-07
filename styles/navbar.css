@@ -19,6 +19,11 @@ body{
     z-index: 3;
 }
 
+#navTrig{
+    top: 0;
+}
+
+
 .nav div.logo {
     float: left;
     width: auto;

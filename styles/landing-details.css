@@ -156,6 +156,11 @@
     font-size: 2em;
   }
 
+  
+  .col-md-6{
+    max-width: 90%;
+  }
+
 
   .carousel-inner > .carousel-item > img {
     height: 50vh !important;
