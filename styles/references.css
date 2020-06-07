@@ -20,7 +20,7 @@
     width: 30%;
     box-shadow: 10px 20px 40px #e6e6f0;
 }
-.reference:hover{
+.reference:hover, .reference:focus{
     -webkit-transform: scale(1.2);
             transform: scale(1.2);
 }
