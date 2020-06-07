@@ -180,8 +180,25 @@ a.pdfbutton:hover{
     margin: 2em;
 }
 
-a[data-toggle="collapse"]{
+.card-header a{
     cursor:pointer;
+    width: 90%;
+    display: inline-block;
+}
+
+.card-header a:link{
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.card-header a:active{
+    color: black;
+}
+
+.card-header a:visited{
+    color: black;
 }
 
 @media only screen 
