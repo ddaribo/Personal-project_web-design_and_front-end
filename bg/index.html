@@ -216,25 +216,27 @@
           <div class="col-md-6">
             <h2 style="text-align: center;">Свържете се с нас</h2>
             <hr style="border:1px solid ; margin-bottom: 4em;">
-          <form action="#">
+
+          <form method="POST" action="../form.php" name="contact_form" id="contact_form">
+            <div id="errors"></div>
               <div class="row form-group">
                   <div class="col-md-12">
                       <label class="sr-only" for="name">Име</label>
-                      <input type="text" id="name" class="form-control" placeholder="Име">
+                      <input type="text" id="name" name="name" class="form-control" placeholder="Име" required>
                   </div>
                   
               </div>
 
               <div class="row form-group">
                   <div class="col-md-12">
-                      <label class="sr-only" for="emailForm">Имейл адрес</label>
-                      <input type="text" id="emailForm" class="form-control" placeholder="Имейл адрес">
+                      <label class="sr-only" for="emailForm" >Имейл адрес</label>
+                      <input type="email" id="emailForm" name="emailForm" class="form-control" placeholder="Имейл адрес" required>
                   </div>
               </div>
               <div class="row form-group">
                   <div class="col-md-12">
                       <label class="sr-only" for="message">Запитване</label>
-                      <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="С какво можем да сме Ви полезни?"></textarea>
+                      <textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="С какво можем да сме Ви полезни?" required></textarea>
                   </div>
               </div>
               <div class="form-group">
@@ -257,8 +259,8 @@
       </div>
   </section>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script src="../scripts/carousel-links.js"></script>
-  <script src="../scripts/responsive_script.js"></script>
+  <script type="text/javascript" src="../scripts/carousel-links.js"></script>
+  <script type="text/javascript" src="../scripts/responsive_script.js"></script>
   <script>
     AOS.init();
   </script>
